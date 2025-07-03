@@ -16,7 +16,7 @@ AWS_REGION = os.environ.get('AWS_REGION', 'us-east-1')
 
 # Fix the SNS_TOPIC_ARN assignment - this was the main issue
 # Instead of using os.environ.get with the ARN as the key, set it directly
-SNS_TOPIC_ARN = 'arn:aws:sns:us-east-1:194722438347:MovieTicketNotifications'
+SNS_TOPIC_ARN = 'arn:aws:sns:us-east-1:980921720508:MovieTicketNotifications'
 
 # Initialize AWS services with proper credentials handling
 # On EC2, this will use the instance profile/role automatically
